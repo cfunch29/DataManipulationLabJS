@@ -7,10 +7,14 @@ const n4 = 5;
 // Check if all numbers are divisible by 5. Cache the result in a variable.
 // This is a fairly simple operation using
 // arithmetic operators and a comparison.
-const isDivisibleBy5 = `n1 / 5 + n2 / 5 + n3 / 5 + n4 / 5`;
-console.log(`The four numbers are valid according to the provided criteria: ${isDivisibleBy5}.`);
+const isDivisibleBy5 = n4 / 5;
+console.log(isDivisibleBy5);
+
+
 // can't figure out how to run so that each expression is interpreted
 // I tried (||) , (+), parentheses, and backtic all results are the same even when I change the variables
+// decided to try each individual pairing
+
 
 // Check if the first number is larger than the last. Cache the result in a variable.
 console.log(n1 > n4);
