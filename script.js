@@ -7,7 +7,7 @@ const n4 = 5;
 // Check if all numbers are divisible by 5. Cache the result in a variable.
 // This is a fairly simple operation using
 // arithmetic operators and a comparison.
-const isDivisibleBy5 = n4 / 5;
+const isDivisibleBy5 = (n1 % 5) + (n2 % 5) + (n3 % 5) + (n4 % 5) == 0;
 console.log(isDivisibleBy5);
 
 
