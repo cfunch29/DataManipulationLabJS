@@ -14,6 +14,8 @@ console.log(isDivisibleBy5);
 // can't figure out how to run so that each expression is interpreted
 // I tried (||) , (+), parentheses, and backtic all results are the same even when I change the variables
 // decided to try each individual pairing
+// used logical operator && to find ALL true 
+// used long literal string (+) for final result
 
 
 // Check if the first number is larger than the last. Cache the result in a variable.
