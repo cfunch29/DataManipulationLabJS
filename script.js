@@ -38,5 +38,6 @@ console.log(remainder)
 // Change the way that isOver25 calculates so that we do not 
 // need to use the NOT operator (!) in other logic comparisons. 
 // Rename the variable as appropriate.
-const isUnder25 = (n1 < 25) + (n2 < 25) + (n3 < 25) + (n4 < 25) <= 25
+const isUnder25 = n1 <= 25 || n2 <= 25 || n3 <= 25 || n4 <= 25;
+console.log(isUnder25)
 
